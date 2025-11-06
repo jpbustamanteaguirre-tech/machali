@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Efecto Machali",
+    "slug": "efecto-machali",
+    "scheme": "emach",
+    "version": "1.0.5",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "icon": "./assets//images/icon.png",
+    "splash": {
+      "image": "./assets//images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1E2F"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0B1E2F",
+      "translucent": false
+    },
+    "android": {
+      "package": "com.efecto.machali",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets//images/icon.png",
+        "backgroundColor": "#0B1E2F"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.efecto.machali",
+      "supportsTablet": false
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyDPPeTZBsxysHEWvs6QwNFDfvB3M2Z6-aU",
+        "authDomain": "app-efecto-machali.firebaseapp.com",
+        "projectId": "app-efecto-machali",
+        "storageBucket": "app-efecto-machali.firebasestorage.app",
+        "messagingSenderId": "633253453998",
+        "appId": "1:633253453998:web:c2d7f426984e861b1c8d3f"
+      },
+      "adminSeedEmail": "jpbustamanteaguirre@gmail.com",
+      "eas": {
+        "projectId": "bab7c947-d45b-43f8-bc25-8e7672a245e1"
+      }
+    },
+    "owner": "jotapez",
+    "plugins": [
+      "expo-sqlite"
+    ]
+  },
+  "plugins": [
+    "expo-router"
+  ],
+  "experiments": {
+    "typedRoutes": true
+  }
+}
